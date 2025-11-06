@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+   
+}
+.logo{
+    background-image: url("amazon-logo.webp");
+    background-size: cover;
+     height: 50px;
+     width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+ /**  BOX 2  **/
+ .add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+
+ }
+ .add-secound{
+    color: #ffffff;
+    font-size: 1rem;
+    /* align-items: center; */
+    margin-left: 3px;
+
+ }
+ .add-icon{
+    display: flex;
+ }
+ /**  BOX 3  **/
+ .nav-search{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border: radius 4px; 
+   
+
+ }
+ .nav-search:hover{
+    border:2px solid orange;
+    
+ }
+ .select-search{
+    
+    color: #0f1111;
+    background-color: #e6e6e6;
+    text-align: center;
+    border: none;
+    width: 50px;
+   
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px ;
+ }
+ .search-input{
+
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+     /* border: none; -->> It means by default border will be missing */
+ }
+ .search-icon{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 40px;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+    color: #0f1111;
+   
+ }
+ /** BOX 4 **/
+ .select-language{
+    background-color: none;
+ }
+ .language-logo{
+    display: flex;
+ }
+ span{
+    font-size: 0.75rem;
+ }
+ .nav-secound{
+    font-size: 1.2rem;
+    font-weight: 800;
+ }
+ /** B0X 5 **/
+ .cart-logo i{
+   font-size: 30px;
+ }
+ .cart-logo{
+   font-weight: 800;
+ }
+ /* Panel Bar */
+ .panel{
+   display: flex;
+   height: 40px;
+   align-items: center;
+   justify-content: space-evenly;
+
+   background-color: #222f3d;
+   color: white;
+ }
+ .panel-options p{
+  /*  the upper statement says that in the panel-option div the paragraph(p) statement should be display inline 
+  IN SIMPLE :  The all properties will set to the paragraph tag only that is the useage of the this upper statement */
+   display: inline;
+   margin-left: 15px;
+
+   
+ }
+ .panel-options{
+   width: 90%;
+   font-size: 0.85rem;
+ }
+
+ /** Hero-Section **/
+ .hero-section{
+   background-image: url("hero-section.jpg");
+   background-size: cover;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+ }
+.hero-msg{
+   background-color: #f5f6f6;
+   color: #0f1111;
+   height: 40px;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 0.85rem;
+   width: 95%;
+   /* position: relative;
+   top:500px;  -->> Insted of giving the position we can give the display : flex in the .hero-section  , it is very efficient 
+   then the position it can set it self by the image */
+   margin-bottom: 25px;
+
+}
+.hero-msg a{
+   color: #2162a1;
+}
+.link{
+   text-decoration: none;
+}
+.underline:hover{
+   text-decoration: underline;
+}
+ 
+/** shopping-section **/
+
+.shopping-section{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   background-color: #e2e7e6;
+}
+.box{
+   /* border: 2px solid black; */
+   height: 400px;
+   width: 23%;
+   background-color: white;
+   margin-top: 1rem;
+}
+.box-img{
+   /* background-image: url("shopping-section.jpg"); */
+   background-size: cover;
+   height: 303px;
+   margin-top:1rem ;
+   margin-bottom: 1rem;
+   /* width: 378px; */
+
+
+}
+.box-content{
+/* margin-left: 2.5rem; */
+margin: 0rem 1.5rem 0rem 1.5rem ;
+
+}
+.box-content p{
+   color: #2162a1;
+}
+
+.shp-link:hover{
+   color: #0f1111;
+}
+/** Fotter Part **/
+footer{
+   margin-top: 20px;
+}
+.footer-panel1{
+   background-color: #37475a;
+   height: 50px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 0.85rem;
+}
+/* .footer-panel2 a{
+   display: block;
+  
+   font-size: 0.85rem;
+
+
+}
+.footer-panel2 p{
+   font-size: 1rem;
+   color: #ffffff;
+}
+.rowpanel{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #232f3e;
+   height: 350px;
+   color: #DDDDDD;
+} */
+ ul a{
+   display: block;
+   font-size: 0.85rem;
+   margin-top: 15px;
+   color: #DDDDDD;
+ }
+ 
+ ul{
+   margin-top: 20px;
+ }
+ .footer-panel2{
+   background-color: #222f3d;
+   color: #ffffff;
+   height: 400px;
+   display: flex;
+   justify-content: space-evenly;
+
+   
+ }
+ .footer-panel3{
+   background-color: #222f3d;
+   border-top: 0.5px solid white;
+   height: 70px;
+   /* width: 1000px; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ .footer-logo{
+   background-image: url("amazon-logo.webp");
+    background-size: cover;
+     height: 50px;
+     width: 100px;
+ }
+ .footer-panel4{
+   background-color: #131a22;
+   height: 80px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   font-size: 0.75rem;
+   text-align: center;
+   padding-top:25px;
+   
+ }
+ .copy-right{
+   color: white;
+   font-size: 0.75rem;
+   text-align: center;
+   padding-top: 5px;
+    
+ }
+ a{
+   color: #DDDDDD;
+   text-decoration: none;
+   margin-right:1rem;
+   
+ }
